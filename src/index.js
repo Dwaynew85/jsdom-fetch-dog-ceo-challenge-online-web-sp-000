@@ -10,7 +10,8 @@ function addImages(images){
   for (const dog of images) {
       const dogContainer = document.getElementById('dog-image-container');
       const elem = document.createElement("img");
-      dogContainer.appendChild(elem).src = dog;
+      elem.src = dog;
+      dogContainer.appendChild(elem);
     }
 }
 
