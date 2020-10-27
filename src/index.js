@@ -13,8 +13,9 @@ function addImages(images){
       dogContainer.appendChild(elem).src = dog;
     }
 }
-
-document.addEventListener("DOMConentLoaded", addImages(dogImgs))
+document.addEventListener('DOMContentLoaded', function() {
+  addImages(dogImgs);
+})
 // for (const dog of dogImgs) {
 //     const dogContainer = document.getElementById('dog-image-container');
 //     const elem = document.createElement("img");
