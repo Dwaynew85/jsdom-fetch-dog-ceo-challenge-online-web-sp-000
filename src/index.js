@@ -15,7 +15,6 @@ function addImages(images){
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  addImages(dogImgs);
   console.log('page loaded')
   addImages(dogImgs);
 })
