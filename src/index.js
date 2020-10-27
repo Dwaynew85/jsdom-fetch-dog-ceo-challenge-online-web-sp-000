@@ -36,4 +36,3 @@ for (const key in breeds) { // goes through breeds object and pulls the keys wit
     newBreeds[key] = breeds[key];
   }
 }
-  
