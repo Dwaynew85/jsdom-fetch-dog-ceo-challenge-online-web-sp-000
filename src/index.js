@@ -13,6 +13,7 @@ function addImages(images){
       dogContainer.appendChild(elem).src = dog;
     }
 }
+
 document.addEventListener('DOMContentLoaded', function() {
   addImages(dogImgs);
 })
