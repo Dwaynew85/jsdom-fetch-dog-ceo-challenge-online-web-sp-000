@@ -18,6 +18,6 @@ function addImages(images){
 
 document.addEventListener('DOMContentLoaded', function() {
   fetch(imgUrl)
-    .then(resp => resp.json())
-    .then(json => dogImgs = json.message);
+  .then(resp => resp.json())
+  .then(json => addImages(json.message));
 })
