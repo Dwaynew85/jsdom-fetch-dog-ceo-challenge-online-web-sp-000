@@ -18,3 +18,8 @@ document.addEventListener('DOMContentLoaded', function() {
   .then(resp => resp.json())
   .then(json => addImages(json.message));
 })
+
+let breeds = {}
+fetch(breedUrl)
+  .then(resp => resp.json())
+  .then(json => breeds = json.message);
