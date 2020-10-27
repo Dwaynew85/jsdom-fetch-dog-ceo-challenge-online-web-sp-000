@@ -23,3 +23,17 @@ let breeds = {}
 fetch(breedUrl)
   .then(resp => resp.json())
   .then(json => breeds = json.message);
+
+
+for (const key in breeds) {
+  if (breeds.hasOwnProperty(key)) {
+    console.log(key);
+  }
+}
+
+  for (const key in breeds) {
+    if (breeds.hasOwnProperty(key)) {
+      console.log(key);
+    }
+  }
+  
