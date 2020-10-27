@@ -16,6 +16,6 @@ fetch(imgUrl)
   .then(resp => resp.json())
   .then(json => dogImgs = json.message);
 
-document.addEventListener('DOMContentLoaded', function() {
-  addImages(dogImgs);
-})
+// document.addEventListener('DOMContentLoaded', function() {
+//   addImages(dogImgs);
+// })
