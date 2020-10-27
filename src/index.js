@@ -11,11 +11,11 @@ let dogImgs = [];
 //       dogContainer.appendChild(elem);
 //     }
 // }
-// 
+//
 // fetch(imgUrl)
 //   .then(resp => resp.json())
 //   .then(json => dogImgs = json.message);
-// 
+//
 // document.addEventListener('DOMContentLoaded', function() {
 //   addImages(dogImgs);
 // })
