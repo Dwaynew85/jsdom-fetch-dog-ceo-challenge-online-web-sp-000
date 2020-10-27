@@ -31,8 +31,12 @@ for (const key in breeds) {
   }
 }
 const newBreeds = {};
-for (const key in breeds) { // goes through breeds object and pulls the keys with values
-  if (breeds[key].length > 0) {
-    newBreeds[key] = breeds[key];
+function addNewBreeds() {
+  for (const key in breeds) { // goes through breeds object and pulls the keys with values
+    if (breeds[key].length > 0) {
+      newBreeds[key] = breeds[key];
+    }
   }
 }
+addNewBreeds()
+
