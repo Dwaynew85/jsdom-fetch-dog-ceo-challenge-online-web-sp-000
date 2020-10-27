@@ -12,10 +12,6 @@ function addImages(images){
     }
 }
 
-// fetch(imgUrl)
-//   .then(resp => resp.json())
-//   .then(json => dogImgs = json.message);
-
 document.addEventListener('DOMContentLoaded', function() {
   fetch(imgUrl)
   .then(resp => resp.json())
